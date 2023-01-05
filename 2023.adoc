@@ -66,4 +66,12 @@ a|
 * という想像。
 |link:https://twitter.com/Kotaropreengin1/status/1610637238127452160[リンク]
 
+|1/5
+|getWriterとprintlnの謎
+a|
+* HttpServletResponseインスタンスのgetWriterメソッドでPrintWriterインスタンスを取得できるのだが
+* そのインスタンスにprintlnメソッドするだけで、レスポンスに反映されるという謎。
+* どこかで、暗黙的にflushメソッドが呼び出されるのだろうか？
+|link:https://twitter.com/Kotaropreengin1/status/1610991641237803010[リンク]
+
 |===
